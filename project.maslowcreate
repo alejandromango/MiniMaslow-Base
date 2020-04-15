@@ -10,6 +10,36 @@
             "topLevel": true,
             "allAtoms": [
                 {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.4125,
+                    "y": 0.4198717948717949,
+                    "uniqueID": 505807,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 11.5
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 14
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.41388888888888886,
+                    "y": 0.6057692307692308,
+                    "uniqueID": 540307,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 0.9861111111111112,
