@@ -10,10 +10,26 @@
             "topLevel": true,
             "allAtoms": [
                 {
+                    "atomType": "Constant",
+                    "name": "Height",
+                    "x": 0.049305555555555554,
+                    "y": 0.14743589743589744,
+                    "uniqueID": 706420,
+                    "ioValues": [
+                        {
+                            "name": "number",
+                            "ioValue": 14
+                        }
+                    ],
+                    "evolve": false,
+                    "min": 0,
+                    "max": 20
+                },
+                {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 0.2215277777777778,
-                    "y": 0.1858974358974359,
+                    "x": 0.20833333333333334,
+                    "y": 0.12179487179487178,
                     "uniqueID": 801796,
                     "ioValues": [
                         {
@@ -28,10 +44,26 @@
                     "currentEquation": "x / y"
                 },
                 {
+                    "atomType": "Constant",
+                    "name": "Width",
+                    "x": 0.050694444444444445,
+                    "y": 0.28205128205128205,
+                    "uniqueID": 320834,
+                    "ioValues": [
+                        {
+                            "name": "number",
+                            "ioValue": 11.5
+                        }
+                    ],
+                    "evolve": false,
+                    "min": 0,
+                    "max": 20
+                },
+                {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 0.21805555555555556,
-                    "y": 0.3846153846153846,
+                    "x": 0.21180555555555555,
+                    "y": 0.3301282051282051,
                     "uniqueID": 317892,
                     "ioValues": [
                         {
@@ -44,6 +76,22 @@
                         }
                     ],
                     "currentEquation": "x / y"
+                },
+                {
+                    "atomType": "Constant",
+                    "name": "Wall Clearance",
+                    "x": 0.05138888888888889,
+                    "y": 0.4134615384615385,
+                    "uniqueID": 816800,
+                    "ioValues": [
+                        {
+                            "name": "number",
+                            "ioValue": 0.75
+                        }
+                    ],
+                    "evolve": false,
+                    "min": 0,
+                    "max": 20
                 },
                 {
                     "atomType": "Translate",
@@ -68,14 +116,14 @@
                 },
                 {
                     "atomType": "Constant",
-                    "name": "Height",
-                    "x": 0.05486111111111111,
-                    "y": 0.5769230769230769,
-                    "uniqueID": 706420,
+                    "name": "Drill Size",
+                    "x": 0.050694444444444445,
+                    "y": 0.5512820512820513,
+                    "uniqueID": 923206,
                     "ioValues": [
                         {
                             "name": "number",
-                            "ioValue": 14
+                            "ioValue": 0.25
                         }
                     ],
                     "evolve": false,
@@ -85,8 +133,8 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 0.24375000000000002,
-                    "y": 0.6121794871794872,
+                    "x": 0.20763888888888887,
+                    "y": 0.5673076923076923,
                     "uniqueID": 505807,
                     "ioValues": [
                         {
@@ -100,26 +148,23 @@
                     ]
                 },
                 {
-                    "atomType": "Constant",
-                    "name": "Width",
-                    "x": 0.05347222222222223,
-                    "y": 0.6762820512820513,
-                    "uniqueID": 320834,
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.20833333333333334,
+                    "y": 0.766025641025641,
+                    "uniqueID": 540307,
                     "ioValues": [
                         {
-                            "name": "number",
-                            "ioValue": 11.5
+                            "name": "diameter",
+                            "ioValue": 0.25
                         }
-                    ],
-                    "evolve": false,
-                    "min": 0,
-                    "max": 20
+                    ]
                 },
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 0.3972222222222222,
-                    "y": 0.7051282051282051,
+                    "x": 0.34652777777777777,
+                    "y": 0.8141025641025641,
                     "uniqueID": 244138,
                     "ioValues": [
                         {
@@ -137,73 +182,14 @@
                     ]
                 },
                 {
-                    "atomType": "Constant",
-                    "name": "Wall Clearance",
-                    "x": 0.052083333333333336,
-                    "y": 0.8237179487179488,
-                    "uniqueID": 816800,
-                    "ioValues": [
-                        {
-                            "name": "number",
-                            "ioValue": 0.75
-                        }
-                    ],
-                    "evolve": false,
-                    "min": 0,
-                    "max": 20
-                },
-                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 0.7611111111111112,
                     "y": 0.46153846153846156,
                     "ioValues": []
-                },
-                {
-                    "atomType": "Constant",
-                    "name": "Drill Size",
-                    "x": 0.13958333333333334,
-                    "y": 0.9038461538461539,
-                    "uniqueID": 923206,
-                    "ioValues": [
-                        {
-                            "name": "number",
-                            "ioValue": 0.25
-                        }
-                    ],
-                    "evolve": false,
-                    "min": 0,
-                    "max": 20
-                },
-                {
-                    "atomType": "Circle",
-                    "name": "Circle",
-                    "x": 0.2743055555555556,
-                    "y": 0.9006410256410257,
-                    "uniqueID": 540307,
-                    "ioValues": [
-                        {
-                            "name": "diameter",
-                            "ioValue": 0.25
-                        }
-                    ]
                 }
             ],
             "allConnectors": [
-                {
-                    "ap1Name": "result",
-                    "ap2Name": "yDist",
-                    "ap2Primary": false,
-                    "ap1ID": 801796,
-                    "ap2ID": 182035
-                },
-                {
-                    "ap1Name": "result",
-                    "ap2Name": "xDist",
-                    "ap2Primary": false,
-                    "ap1ID": 317892,
-                    "ap2ID": 182035
-                },
                 {
                     "ap1Name": "number",
                     "ap2Name": "y length",
@@ -219,10 +205,10 @@
                     "ap2ID": 801796
                 },
                 {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 505807,
+                    "ap1Name": "result",
+                    "ap2Name": "yDist",
+                    "ap2Primary": false,
+                    "ap1ID": 801796,
                     "ap2ID": 182035
                 },
                 {
@@ -240,11 +226,25 @@
                     "ap2ID": 317892
                 },
                 {
+                    "ap1Name": "result",
+                    "ap2Name": "xDist",
+                    "ap2Primary": false,
+                    "ap1ID": 317892,
+                    "ap2ID": 182035
+                },
+                {
                     "ap1Name": "number",
                     "ap2Name": "diameter",
                     "ap2Primary": false,
                     "ap1ID": 923206,
                     "ap2ID": 540307
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 505807,
+                    "ap2ID": 182035
                 },
                 {
                     "ap1Name": "geometry",
